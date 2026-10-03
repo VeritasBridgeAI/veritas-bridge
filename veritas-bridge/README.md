@@ -65,6 +65,24 @@ A separate operator-driven rollback/re-adoption qualification exercised actual r
 
 This qualification was intentionally separate from the autonomous CHANGE and NO CHANGE runs.
 
+### SWE-bench external validation
+
+Veritas Bridge's first independently scored SWE-bench task, `django__django-15382`, was officially evaluated as **Resolved**.
+
+- **Tasks evaluated:** 1
+- **Tasks resolved:** 1
+- **Result for this task:** **100%**
+- **Official tests executed:** Yes
+- **Patch:** original saved Veritas patch, unchanged
+- **Patch regenerated for scoring:** No
+- **Model rerun for scoring:** No
+
+The patch was produced earlier through the Veritas development workflow, preserved, and later submitted unchanged to the independent evaluator.
+
+Broader SWE-bench evaluation is continuing.
+
+See [docs/evidence.md](docs/evidence.md) for the recorded evidence.
+
 ## Architecture
 
 Veritas separates the persistent running system from candidate execution, evaluation, review, and promotion authority.
