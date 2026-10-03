@@ -148,6 +148,34 @@ Governance checks for approval, budget, stop state, source identity, and mandato
 
 It is not proof of universal resistance to prompt injection, hostile privileged code, host compromise, every plugin/launcher/browser path, or every future model.
 
+## F. SWE-bench external evaluation
+
+**Date:** 2 October 2026  
+**Task:** `django__django-15382`  
+**Outcome:** **Resolved**
+
+### Recorded result
+
+- **Tasks evaluated:** 1
+- **Tasks resolved:** 1
+- **Score for this task:** **100%**
+- **Official tests executed:** Yes
+- **Patch:** original saved Veritas patch
+- **Patch regenerated for scoring:** No
+- **Model rerun for scoring:** No
+- **Scoring status:** Completed
+- **Final process/container cleanup:** Verified
+
+The patch was produced earlier through the Veritas development workflow, preserved, and later submitted unchanged to the independent evaluator.
+
+### Evidence integrity
+
+**Prediction SHA-256:**
+
+`4bc06ba2ddc07439ffcedd95d5239e066968782147d2b490b394cca20de1d1d5`
+
+This result records one evaluated SWE-bench task. Broader SWE-bench evaluation is continuing.
+
 ## Evidence availability
 
 This public repository intentionally contains summarized evidence rather than raw protected logs, private fingerprints, credentials, authority payloads, proprietary prompts, or production source code.
